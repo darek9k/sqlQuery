@@ -95,3 +95,11 @@ We are adding records.
 Adding a column.
 Updating age fields by id.
 */
+
+-----------------------------------------------------------------------------
+query9.sql
+
+Cheat sheet for functions.
+
+
+
