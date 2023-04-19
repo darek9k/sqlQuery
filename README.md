@@ -1,4 +1,7 @@
-# sqlQuery - utworzenie bazy danych
+# sqlQuery - przykłady zapytań SQL
+
+query1.sql
+Utworzenie bazy danych
 Stworzenie tabeli users oraz profession
 Tabela users pola id,name,surname,age,city,profession
 Tabela profession pola id, name
@@ -36,3 +39,19 @@ name VARCHAR(200)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
 
 DROP DATABASE pierwsza_baza;
+
+-----------------------------------------------------------------------------
+query2.sql
+Dodanie rekordów do tabeli users.
+Wyświetlenie wszystkich rekordów z tabeli users.
+Zmiana pola age w tabeli users gdzie id wynosi 1.
+Zmiana pola wiek w tabeli users gdzie id wynosi 3.
+Usunięcie rekordu z tabeli users gdzie id wynosi 1.
+/*
+Adding records to the users table.
+Displaying all records from the users table.
+Changing the age field in the users table where id is 1.
+Changing the age field in the users table where id is 3.
+Deleting a record from the users table where id is 1.
+*/
+
