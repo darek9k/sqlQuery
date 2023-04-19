@@ -50,7 +50,7 @@ Adding a column named column_po_id after the id column.
 */
 
 -----------------------------------------------------------------------------
-query3.sql
+query4.sql
 
 Użycie operatorów > < = != do wyświetlania rekordów wg wartości.
 
@@ -59,9 +59,9 @@ Using the operators > < = != to display records based on their values.
 */
 
 -----------------------------------------------------------------------------
-query4.sql
+query5.sql
 
-Zastosowanie BETWEEND AND. 
+Zastosowanie BETWEEN AND. 
 oraz WHERE IN ()
 Zaczyna się na '%Kow%' oraz kończy na '_anu%'
 
@@ -71,3 +71,7 @@ and WHERE IN ()
 Starting with '%Kow%' and ending with '_anu%'.
 */
 
+-----------------------------------------------------------------------------
+query6.sql
+
+Operatory and oraz not in
