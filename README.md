@@ -58,3 +58,16 @@ Użycie operatorów > < = != do wyświetlania rekordów wg wartości.
 Using the operators > < = != to display records based on their values.
 */
 
+-----------------------------------------------------------------------------
+query4.sql
+
+Zastosowanie BETWEEND AND. 
+oraz WHERE IN ()
+Zaczyna się na '%Kow%' oraz kończy na '_anu%'
+
+/*
+Using BETWEEN AND.
+and WHERE IN ()
+Starting with '%Kow%' and ending with '_anu%'.
+*/
+
