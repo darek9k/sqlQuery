@@ -48,3 +48,13 @@ Dodanie kolumny kolumna_po_id po kolumnie id
 Inserting a record with the value 'Brak' in the name column.
 Adding a column named column_po_id after the id column.
 */
+
+-----------------------------------------------------------------------------
+query3.sql
+
+Użycie operatorów > < = != do wyświetlania rekordów wg wartości.
+
+/*
+Using the operators > < = != to display records based on their values.
+*/
+
