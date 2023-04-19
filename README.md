@@ -75,3 +75,12 @@ Starting with '%Kow%' and ending with '_anu%'.
 query6.sql
 
 Operatory and oraz not in
+
+-----------------------------------------------------------------------------
+query7.sql
+
+Sorting DESC and ASC
+
+
+
+
