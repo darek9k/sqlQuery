@@ -81,6 +81,17 @@ query7.sql
 
 Sorting DESC and ASC
 
+-----------------------------------------------------------------------------
+query8.sql
 
+Tworzymy nową tabelę pracownik. 
+Dodajemy rekordy.
+Dodanie kolumny.
+Aktualizacja pól wiek po id.
 
-
+/*
+We are creating a new table called "pracownik".
+We are adding records.
+Adding a column.
+Updating age fields by id.
+*/
