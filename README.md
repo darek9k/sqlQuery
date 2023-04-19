@@ -16,6 +16,7 @@ id - INT NOT NULL AUTO_INCREMENT PRIMARY KEY // primary key with auto numbering
 At the end, remove/drop the database.
 */
 #sqlQuery
+query1.sql
 
 CREATE DATABASE pierwsza_baza;
 USE pierwsza_baza;
