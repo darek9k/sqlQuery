@@ -101,5 +101,12 @@ query9.sql
 
 Cheat sheet for functions.
 
+-----------------------------------------------------------------------------
+query10.sql
 
+Sprawdzanie długości znaków w wartościach wierszy tabeli users;
+
+/*
+Checking the length of characters in the values of rows in the users table.
+*/
 
