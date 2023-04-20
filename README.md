@@ -127,3 +127,8 @@ Wyrażenie regularne.
 /*
 Regular expression.
 */
+
+-----------------------------------------------------------------------------
+query13.sql
+
+LEFT JOIN, RIGHT JOIN, INNER JOIN
