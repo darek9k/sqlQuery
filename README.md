@@ -118,3 +118,12 @@ Podzapytania, tworzenie widoków.
 /*
 Subqueries, creating views.
 */
+
+-----------------------------------------------------------------------------
+query12.sql
+
+Wyrażenie regularne.
+
+/*
+Regular expression.
+*/
