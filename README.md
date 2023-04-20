@@ -110,3 +110,11 @@ Sprawdzanie długości znaków w wartościach wierszy tabeli users;
 Checking the length of characters in the values of rows in the users table.
 */
 
+-----------------------------------------------------------------------------
+query11.sql
+
+Podzapytania, tworzenie widoków.
+
+/*
+Subqueries, creating views.
+*/
