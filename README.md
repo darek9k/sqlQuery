@@ -141,3 +141,8 @@ query14.sql
 /*
 Joining three tables - JOIN.
 */
+
+-----------------------------------------------------------------------------
+query15.sql
+
+CREATE TRIGGER
