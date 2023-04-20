@@ -132,3 +132,12 @@ Regular expression.
 query13.sql
 
 LEFT JOIN, RIGHT JOIN, INNER JOIN
+
+-----------------------------------------------------------------------------
+query14.sql
+
+Łączenie trzech tabel - JOIN
+
+/*
+Joining three tables - JOIN.
+*/
