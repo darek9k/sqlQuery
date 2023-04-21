@@ -146,3 +146,8 @@ Joining three tables - JOIN.
 query15.sql
 
 CREATE TRIGGER
+
+-----------------------------------------------------------------------------
+query16.sql
+
+CREATE PROCEDURE
