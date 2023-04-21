@@ -155,8 +155,26 @@ CREATE PROCEDURE
 -----------------------------------------------------------------------------
 query17.sql
 
-Task. Stwórz nową bazę. Tabele : cena, users, sprzedaż. 
-Wyświetlić : imię i nazwisko z ceną i nazwą produktu. Wykorzystując relacje po id z tabeli sprzedaż.
+Zadanie składa się z kilku podzadań
+
+Stwórz bazę danych o nazwie task
+Dodaj tabele z produktami gdzie jest id, nazwa oraz cena
+Dodaj kilka różnych produktów
+Policz średnią cenę z tabeli produkt
+Policz minimalną cenę z tabeli produkt
+Policz maksymalną cenę z tabeli produkt
+Posortuj malejąco po cenie
+Policz sumę w tabeli produkt
+Wyszukaj wszystkie produkty o nazwie X
+Wyszukaj wszystkie produkty gdzie cena jest większa od 1000
+Dodaj tabele z użytkownikami gdzie będzie id, imię i nazwisko
+Dodaj użytkowników
+Dodaj tabele ze sprzedaż
+Dodaj sprzedaż gdzie będzie data, id produktu i id użytkownika
+Dodaj rekordy do tabeli sprzedaż
+Wyświetl wszystkie sprzedaże tak by były w niej widoczne dane użytkowników i produktów
+Usuń produkt o id = 1
+Zaktualizuj imię użytkownika o id = 1
 
 /*
 Task: Create a new database. Tables: price, users, sales.
