@@ -162,3 +162,84 @@ Wyświetlić : imię i nazwisko z ceną i nazwą produktu. Wykorzystując relacj
 Task: Create a new database. Tables: price, users, sales.
 Display: 'imie' and 'nazwisko' with 'cena' and 'nazwa', using relationships by ID from the 'sprzedaz' table.
 */
+
+-----------------------------------------------------------------------------
+query18.sql
+
+Zadanie składa się z kilku podzadań:
+
+1) Dodaj tabele
+
+sale z kolumnami
+id,
+id_product,
+id_client,
+price.
+product z kolumnami
+id,
+name
+client z kolumnami
+id,
+name,
+country
+info z kolumnami
+id,
+dzisiejsza data,
+id_sale
+
+2) Następnie stwórz 3 procedury, które będą dodawały:
+
+klientów na podstawie dwóch parametrów: name oraz country
+produkty na podstawie parametru: name
+sprzedaż na podstawie parametrów: id_product, id_client, price :
+
+3) Dodaj za pomocą procedury klientów, produkty oraz sprzedaże
+
+4) Wyświetl dane łącząc tabele produkt i klient z tabelą sprzedaż
+
+5) Stwórz triggera, który doda wpis do tabeli info, że zanotowano nową sprzedaż.
+
+6) Napisz zapytanie, które wyświetli informację o sprzedaży wraz z wszystkimi danymi z tabeli sprzedaż, produkt i klient
+
+7) Następnie Stwórz procedurę, która będzie usuwała klientów na podstawie podanego ID
+
+8) Usuń z każdej tabeli rekord o id = 1
+
+/*
+The task consists of several subtasks:
+
+Add tables
+sales table with columns:
+id,
+id_product,
+id_client,
+price.
+product table with columns:
+id,
+name.
+client table with columns:
+id,
+name,
+country.
+info table with columns:
+id,
+today's date,
+id_sale.
+
+Next, create 3 procedures that will add:
+clients based on two parameters: name and country.
+products based on the parameter: name.
+sales based on parameters: id_product, id_client, price.
+
+Add clients, products, and sales using the procedures.
+
+Display data by joining the product and client tables with the sales table.
+
+Create a trigger that adds an entry to the info table that a new sale has been recorded.
+
+Write a query that displays sales information along with all data from the sales, product, and client tables.
+
+Then create a procedure that will delete clients based on the given ID.
+
+Delete a record with id = 1 from each table.
+*/
