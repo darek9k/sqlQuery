@@ -151,3 +151,14 @@ CREATE TRIGGER
 query16.sql
 
 CREATE PROCEDURE
+
+-----------------------------------------------------------------------------
+query17.sql
+
+Task. Stwórz nową bazę. Tabele : cena, users, sprzedaż. 
+Wyświetlić : imię i nazwisko z ceną i nazwą produktu. Wykorzystując relacje po id z tabeli sprzedaż.
+
+/*
+Task: Create a new database. Tables: price, users, sales.
+Display: 'imie' and 'nazwisko' with 'cena' and 'nazwa', using relationships by ID from the 'sprzedaz' table.
+*/
