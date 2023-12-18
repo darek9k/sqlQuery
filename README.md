@@ -26,6 +26,16 @@
 
 **query12.sql**: Uses regular expressions to search for data in the "users" table.
 
+The query13.sql query: This query creates a database 'pierwsza_baza' and a table 'klient' with columns 'id', 'imie' (name), and 'nazwisko' (surname). It then adds some records to the klient table. After that, it displays all records from the klient table. It creates a table 'sprzedaz' with columns 'id', 'id_klient' (customer ID), and 'produkt' (product). It adds some records to the sprzedaz table. It displays all records from the sprzedaz table. It performs a LEFT JOIN and displays the results, joining the sprzedaz table with the klient table. It performs a RIGHT JOIN and displays the results, joining the sprzedaz table with the klient table. It performs an INNER JOIN and displays the results, joining the sprzedaz table with the klient table. It deletes the sprzedaz table. It creates a new sprzedaz table and a product table. It adds some records to the product table. It adds some records to the sprzedaz table. It performs a LEFT JOIN and displays the results, joining the sprzedaz table with the klient table and the product table.
+
+The query14.sql query: This query creates a table 'uzytkownik' (user) with columns 'id', 'imie' (name), and 'nazwisko' (surname). It then adds some records to the uzytkownik table. After that, it displays all records from the uzytkownik table. It creates a table 'zawod' (profession) with a column 'id' and 'Nazwa' (name). It adds some records to the zawod table. It displays all records from the zawod table. It creates a table 'pracownicy' (employees) with columns 'id', 'id_zawod' (profession ID), and 'id_uzytkownik' (user ID). It displays all records from the pracownicy table. It adds some records to the pracownicy table. It performs a LEFT JOIN and displays the results, joining the pracownicy table with the uzytkownik table and the zawod table.
+
+The query15.sql query: This query creates a table 'produkty' (products) with columns 'ID', 'cena' (price), 'nazwa' (name), and 'ile_sprzedano' (total_sold). It adds some records to the produkty table. It then creates a table 'sprzedaz_produktow' (product_sales) with columns 'ID', 'kiedy' (when), and 'id_produktu' (product ID). It inserts a new record into the sprzedaz_produktow table. It creates a trigger 'licznik' (counter) that updates the 'ile_sprzedano' (total_sold) counter in the produkty table after inserting a new record into the sprzedaz_produktow table. It deletes the trigger 'licznik'. It inserts some new records into the sprzedaz_produktow table. It displays all records from the sprzedaz_produktow and produkty tables. It deletes the produkty, sprzedaz_produktow, and info tables.
+
+The query16.sql query: This query creates a procedure 'select_users' that displays all records from the users table. It calls the 'select_users' procedure. It creates a procedure 'szukaj_uzytkownika' (search_user) that takes an argument 'imie' (name) and displays records from the users table where name = imie. It calls the 'szukaj_uzytkownika' procedure with the argument 'Dariusz'.
+
+The query17.sql query: This query creates a database 'task' and switches to its use. It creates a table 'produkty' (products) with columns 'id', 'nazwa' (name), and 'cena' (price). It deletes the produkty table. It adds some records to the produkty table. It performs various queries: calculates the average price of products, finds the minimum price, finds the maximum price, sorts the products by price in descending order, and calculates the sum of product prices. It displays records from the produkty table where the price > 1000.
+
 
 # Projekt Zapytania SQL
 
@@ -54,6 +64,26 @@
 **query11.sql**: Wykonuje podzapytania i tworzy widoki. Wyświetla dane z widoku.
 
 **query12.sql**: Wykorzystuje wyrażenia regularne do wyszukiwania danych w tabeli `"users"`.
+
+**query13.sql**:
+
+Zapytanie tworzy bazę danych 'pierwsza_baza' i tabelę 'klient' z kolumnami 'id', 'imie' i 'nazwisko'. Następnie dodaje kilka rekordów do tabeli klient. Po tym zapytaniu, wyświetla wszystkie rekordy z tabeli klient. Następnie tworzy tabelę 'sprzedaz' z kolumnami 'id', 'id_klient' i 'produkt'. Dodaje kilka rekordów do tabeli sprzedaz. Wyświetla wszystkie rekordy z tabeli sprzedaz. Wykonuje złączenie LEFT JOIN i wyświetla wyniki, łącząc tabelę sprzedaz z tabelą klient. Wykonuje złączenie RIGHT JOIN i wyświetla wyniki, łącząc tabelę sprzedaz z tabelą klient. Wykonuje złączenie INNER JOIN i wyświetla wyniki, łącząc tabelę sprzedaz z tabelą klient. Usuwa tabelę sprzedaz. Tworzy nową tabelę sprzedaz oraz tabelę produkt. Dodaje kilka rekordów do tabeli produkt. Dodaje kilka rekordów do tabeli sprzedaz. Wykonuje złączenie LEFT JOIN i wyświetla wyniki, łącząc tabelę sprzedaz z tabelą klient oraz tabelę produkt.
+
+**query14.sql**:
+
+Zapytanie tworzy tabelę 'uzytkownik' z kolumnami 'id', 'imie' i 'nazwisko'. Następnie dodaje kilka rekordów do tabeli uzytkownik. Po tym zapytaniu, wyświetla wszystkie rekordy z tabeli uzytkownik. Następnie tworzy tabelę 'zawod' z kolumną 'id' i 'Nazwa'. Dodaje kilka rekordów do tabeli zawod. Wyświetla wszystkie rekordy z tabeli zawod. Tworzy tabelę 'pracownicy' z kolumnami 'id', 'id_zawod' i 'id_uzytkownik'. Wyświetla wszystkie rekordy z tabeli pracownicy. Dodaje kilka rekordów do tabeli pracownicy. Wykonuje złączenie LEFT JOIN i wyświetla wyniki, łącząc tabelę pracownicy z tabelą uzytkownik oraz tabelę zawod.
+
+**query15.sql**:
+
+Zapytanie tworzy tabelę 'produkty' z kolumnami 'ID', 'cena', 'nazwa' oraz 'ile_sprzedano'. Dodaje kilka rekordów do tabeli produkty. Następnie tworzy tabelę 'sprzedaz_produktow' z kolumnami 'ID', 'kiedy' oraz 'id_produktu'. Wstawia nowy rekord do tabeli sprzedaz_produktow. Tworzy trigger 'licznik', który aktualizuje licznik 'ile_sprzedano' w tabeli produkty po wstawieniu nowego rekordu do tabeli sprzedaz_produktow. Usuwa trigger 'licznik'. Wstawia kilka nowych rekordów do tabeli sprzedaz_produktow. Wyświetla wszystkie rekordy z tabeli sprzedaz_produktow oraz produkty. Usuwa tabelę produkty, sprzedaz_produktow oraz info.
+
+**query16.sql**:
+
+Zapytanie tworzy procedurę 'select_users', która wyświetla wszystkie rekordy z tabeli users. Wywołuje procedurę 'select_users'. Tworzy procedurę 'szukaj_uzytkownika', która pobiera argument 'imie' i wyświetla rekordy z tabeli users, gdzie name = imie. Wywołuje procedurę 'szukaj_uzytkownika' z argumentem 'Dariusz'.
+
+**query17.sql**:
+
+Zapytanie tworzy bazę danych 'task' i przełącza się na jej użycie. Tworzy tabelę 'produkty' z kolumnami 'id', 'nazwa' i 'cena'. Usuwa tabelę produkty. Dodaje kilka rekordów do tabeli produkty. Wykonuje różne zapytania: oblicza średnią cenę produktów, znajduje najniższą cenę, znajduje najwyższą cenę, sortuje produkty według ceny malejąco oraz oblicza sumę cen produktów. Wyświetla rekordy z tabeli produkty, gdzie cena > 1000.
 
 ///OLD FILE BELOW
 # sqlQuery - przykłady zapytań SQL
